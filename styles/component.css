@@ -1,0 +1,85 @@
+
+#mainCard {
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 20px;
+}
+
+#mainCard .card01 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+
+.contenImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(215, 11%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card01 img {
+    width: 17px;
+}
+
+.card01 h1 {
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+}
+
+.card01 p {
+    color: hsl(216, 12%, 54%);
+    margin: 0;
+}
+
+#rating {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+#rating input{
+    font-weight: 700;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(215, 11%, 22%);
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+}
+
+#rating input:hover {
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    color: white;
+}
+
+#rating input:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}

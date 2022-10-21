@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/component.css" />
+    <link rel="stylesheet" href="/styles/pages.css" />
+    <title>Interactive-rating-component</title>
+</head>
+<body>
+    <main id="mainCard">
+        <section class="card01">
+            <div class="contenImg">
+                <img src="/assets/icon-star.svg" alt="star"/>
+            </div>
+            <h1 alt="tittle">how did we do?</h1>
+            <p alt="description">please let us know how we did with your support request. all feedback is appreciated to help us improve our offering!</p>
+            <section id="rating">
+                <input  type="button"
+                        onclick="send()"
+                        class="n1"
+                        value="1"/>
+                <input  type="button"
+                        onclick="send()"
+                        class="n2"
+                        value="2"/>
+                <input  type="button"
+                        onclick="send()"
+                        class="n3"
+                        value="3"/>
+                <input  type="button"
+                        onclick="send()"
+                        class="n4"
+                        value="4"/>
+                <input  type="button"
+                        onclick="send()"
+                        class="n5"
+                        value="5"/>
+            </section>
+            <button>submit</button>
+        </section>
+    </main>
+</body>
+</html>
