@@ -83,3 +83,7 @@ button:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
+
+button a {
+    text-decoration: none;
+}
